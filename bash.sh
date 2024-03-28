@@ -16,9 +16,18 @@
 #total=$(($num+1))
 #let total=$num+1
 #echo "The sum is: "$total
+#read -p "How old are you? " age
+#let calcDays=$((age*365))
+#echo $calcDays
 
-read -p "How old are you? " age
-let calcDays=$((age*365))
+read -p "Enter a number: " num
 
-echo $calcDays
+let square=$(($num**2))
+
+if [ $square -gt 90 ] 
+then
+	echo "The square was $square"
+else
+	echo "The square was not greater than 90"
+fi
 
