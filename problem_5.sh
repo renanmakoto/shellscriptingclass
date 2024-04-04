@@ -8,7 +8,6 @@ then
 elif [ $FAVCOLOUR -eq 3 ]
 then	
 	echo "You chose red"
-	echo "Soyuz nerushimy respublik svobodnik"
 elif [ $FAVCOLOUR -eq 4 ]
 then
 	echo "orange"
